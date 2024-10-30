@@ -44,11 +44,4 @@ describe("Banking System", () => {
     const manager = new Manager(bank);
     expect(manager.getTotalBalance()).toBe(500);
   });
-
-  test("manager should find a customer by name", () => {
-    const manager = new Manager(bank);
-    bank.addCustomer("Alice", 200);
-    const foundCustomer = manager.findCustomerByName("Alice");
-    expect(foundCustomer?.getName()).toBe("Alice");
-  });
 });

@@ -11,8 +11,4 @@ export class Manager {
   getTotalBalance(): number {
     return this.bank.getTotalBalance();
   }
-
-  findCustomerByName(name: string): Customer | undefined {
-    return this.bank.findCustomerByName(name);
-  }
 }
