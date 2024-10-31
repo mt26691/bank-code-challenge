@@ -18,6 +18,9 @@ export class Customer {
   }
 
   withdraw(amount: number): void {
+    if (amount <= 0) {
+      throw new Error("Withdrawal amount must be greater than zero.");
+    }
     if (amount > this.balance) {
       throw new Error("Insufficient funds.");
     }
@@ -25,6 +28,9 @@ export class Customer {
   }
 
   transfer(amount: number, recipient: Customer): void {
+    if (amount <= 0) {
+      throw new Error("Transfer amount must be greater than zero.");
+    }
     if (amount > this.balance) {
       throw new Error("Insufficient funds to transfer.");
     }

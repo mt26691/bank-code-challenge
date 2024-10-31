@@ -15,8 +15,4 @@ export class Bank {
       0
     );
   }
-
-  findCustomerByName(name: string): Customer | undefined {
-    return this.customers.find((customer) => customer.getName() === name);
-  }
 }
