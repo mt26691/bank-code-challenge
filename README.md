@@ -76,7 +76,3 @@ While the current implementation meets the basic requirements, there are several
 - **Optimized Total Balance Calculation**: Rather than calculating the total balance on each request, a pre-calculated value or materialized view in the database could be used. This approach would improve performance, especially for large-scale systems with many customers and frequent balance inquiries.
 
 These long-term features would make the system more robust, reliable, and scalable, laying the foundation for handling real-world banking scenarios.
-
-## Conclusion
-
-This project provides a basic banking model using TypeScript classes and Jest for testing. The simplicity of the design meets the coding challenge requirements while allowing flexibility for future enhancements.
