@@ -49,7 +49,8 @@ src
 ├── manager.ts       # Manager class
 └── bank.test.ts     # Test file for all classes and interactions
 jest.config.js       # Jest configuration file
-
+package.json         # Project dependencies, scripts, and configuration
+tsconfig.json        # TypeScript compiler options
 ```
 
 ## Design Choices
