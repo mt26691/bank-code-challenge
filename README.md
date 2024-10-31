@@ -13,7 +13,7 @@ This project implements a simple banking system using TypeScript. The goal is to
 
 ### Installation
 
-1. **Clone the repository** (if it's in version control):
+1. **Clone the repository**
 
 ```bash
 git clone https://github.com/mt26691/bank-code-challenge.git
